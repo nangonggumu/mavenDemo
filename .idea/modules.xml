@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maven-business/maven-business.iml" filepath="$PROJECT_DIR$/maven-business/maven-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-inner-api/maven-inner-api.iml" filepath="$PROJECT_DIR$/maven-inner-api/maven-inner-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-inner-sdk/maven-inner-sdk.iml" filepath="$PROJECT_DIR$/maven-inner-sdk/maven-inner-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-service/maven-service.iml" filepath="$PROJECT_DIR$/maven-service/maven-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-web-api/maven-web-api.iml" filepath="$PROJECT_DIR$/maven-web-api/maven-web-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-web-customer/maven-web-customer.iml" filepath="$PROJECT_DIR$/maven-web-customer/maven-web-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-system/mavensystem.iml" filepath="$PROJECT_DIR$/maven-system/mavensystem.iml" />
+    </modules>
+  </component>
+</project>

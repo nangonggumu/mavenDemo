@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-business" />
+        <module name="maven-inner-api" />
+        <module name="maven-inner-sdk" />
+        <module name="maven-service" />
+        <module name="maven-web-api" />
+        <module name="maven-web-customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-business" target="1.5" />
+      <module name="maven-demo" target="1.5" />
+      <module name="maven-inner-api" target="1.5" />
+      <module name="maven-inner-sdk" target="1.5" />
+      <module name="maven-service" target="1.5" />
+      <module name="maven-web-api" target="1.5" />
+      <module name="maven-web-customer" target="1.5" />
+      <module name="mavensystem" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

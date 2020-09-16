@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] maven-system                                                       [pom]
+[INFO] maven-web-api                                                      [war]
+[INFO] maven-web-customer                                                 [war]
+[INFO] maven-service                                                      [jar]
+[INFO] maven-business                                                     [jar]
+[INFO] maven-inner-api                                                    [jar]
+[INFO] maven-inner-sdk                                                    [jar]
+Downloading from nexus: http://192.168.0.252:8081/repository/maven-public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+Downloading from nexus: http://192.168.0.252:8081/repository/maven-public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] -------------------< com.zq.mavendemo:maven-system >--------------------
+[INFO] Building maven-system 1.0-SNAPSHOT                                 [1/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-system ---
+[INFO] com.zq.mavendemo:maven-system:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] -------------------< com.zq.mavendemo:maven-web-api >-------------------
+[INFO] Building maven-web-api 1.0-SNAPSHOT                                [2/7]
+[INFO] --------------------------------[ war ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-web-api ---
+[INFO] com.zq.mavendemo:maven-web-api:war:1.0-SNAPSHOT
+[INFO] 
+[INFO] ----------------< com.zq.mavendemo:maven-web-customer >-----------------
+[INFO] Building maven-web-customer 1.0-SNAPSHOT                           [3/7]
+[INFO] --------------------------------[ war ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-web-customer ---
+[INFO] com.zq.mavendemo:maven-web-customer:war:1.0-SNAPSHOT
+[INFO] 
+[INFO] -------------------< com.zq.mavendemo:maven-service >-------------------
+[INFO] Building maven-service 1.0-SNAPSHOT                                [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-service ---
+[INFO] com.zq.mavendemo:maven-service:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------< com.zq.mavendemo:maven-business >-------------------
+[INFO] Building maven-business 1.0-SNAPSHOT                               [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-business ---
+[INFO] com.zq.mavendemo:maven-business:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------< com.zq.mavendemo:maven-inner-api >------------------
+[INFO] Building maven-inner-api 1.0-SNAPSHOT                              [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-inner-api ---
+[INFO] com.zq.mavendemo:maven-inner-api:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------< com.zq.mavendemo:maven-inner-sdk >------------------
+[INFO] Building maven-inner-sdk 1.0.0-SNAPSHOT                            [7/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-inner-sdk ---
+[INFO] com.zq.mavendemo:maven-inner-sdk:jar:1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] maven-system 1.0-SNAPSHOT .......................... SUCCESS [  0.422 s]
+[INFO] maven-web-api ...................................... SUCCESS [  0.023 s]
+[INFO] maven-web-customer ................................. SUCCESS [  0.007 s]
+[INFO] maven-service ...................................... SUCCESS [  0.009 s]
+[INFO] maven-business ..................................... SUCCESS [  0.006 s]
+[INFO] maven-inner-api .................................... SUCCESS [  0.006 s]
+[INFO] maven-inner-sdk 1.0.0-SNAPSHOT ..................... SUCCESS [  0.006 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:31 min
+[INFO] Finished at: 2020-09-16T11:36:24+08:00
+[INFO] ------------------------------------------------------------------------
